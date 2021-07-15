@@ -10,16 +10,59 @@
         <header>
             <h1>The box model, box-sizing & box-<br>shadow</h1>
         </header>
+        <hr>
         <main>
             <section>
-                <div class="container">
                 <h2>Exercise1</h2>
                 <div class="box"></div>
-                <div class="circle">Container</div>
-                <div class="circle">Padding</div>
-                <div class="circle">Border</div>
-                <div class="circle">Margin</div>
-                </div>
+                 <div class="marker-container">
+                     <div class="marker">
+                        <span class="circle content"></span>
+                        <span>Content</span>
+                     </div>
+                     <div class="marker">
+                        <span class="circle padding"></span>
+                        <span>Padding</span>
+                        
+                     </div>
+                     <div class="marker">
+                        <span class="circle border"></span>
+                        <span>Border</span>
+                       
+                     </div>
+                     <div class="marker">
+                        <span class="circle margin"></span>
+                        <span>Margin</span>
+                      </div>
+                    </div>  
+            </section>
+            <hr>
+            <section>
+                  <h2>Exercise2</h2>
+                  <p>no border on these boxes.</p>
+                    <div class="container">
+                        <span class="child-box"></span>
+                        <span class="child-box"></span>
+                        <span class="child-box"></span>
+                   </div>
+            </section>
+            <hr>
+            <section>
+                <p>1px border on this boxes.</p>
+                <div class="container">
+                    <span class="child-box box1"></span>
+                    <span class="child-box box2"></span>
+                    <span class="child-box box3"></span>
+               </div>
+            </section>
+            <hr>
+            <section>
+                <p>1px of border on this boxes but they are in same line.</p>
+                <div class="container sub">
+                    <span class="child-box child1 border-box"></span>
+                    <span class="child-box child2 border-box"></span>
+                    <span class="child-box child3 border-box"></span>
+               </div>
             </section>
         </main>
     </body>
