@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Style */
+
+body {
+    line-height: 1.5;
+}
+h1 {
+    text-align: center;
+    font-size: 32px;
+    padding: 32px 188px;
+    text-transform: capitalize;
+}
+hr {
+    width: 500px;
+    border-style: dashed;
+    margin: 24px auto;
+    border-color: gray;
+}
+h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(218,250,212);
+    border: 20px solid rgb(173,216,230);
+    margin: 20px     auto;
+    outline: 3px solid black;
+    box-shadow: 0 0 0 20px rgb(237,127,128);
+}
+.marker-container {
+    text-align: center;
+    margin-top: 60px;
+}
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(218,250,212);
+    display: inline-block ;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.padding {
+    background-color: rgb(173,216,230);
+}
+.border {
+    background-color: black;
+}
+.margin {
+    background-color: rgb(237,127,128);
+}
+.marker {
+    display: inline-block;
+    margin: 0 16px;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+}
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: 24px auto;
+    font-size: 0;
+}
+.child-box {
+    background-color: rgb(204,204,204);
+    height: 100px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+}
+.box1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.box2 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+.box3 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.sub {
+    font-size: 0;
+    
+}
+.child1 {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    
+}
+.child2 {
+    border-bottom: 1px solid black;
+
+}
+.child3 {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.border-box {
+    box-sizing: border-box;
+}
